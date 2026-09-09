@@ -22,7 +22,11 @@ a { color: inherit; text-decoration: none; }
 .brand { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; letter-spacing: 2px; cursor: pointer; color: var(--ink); }
 .brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: white; background: var(--orange); font-family: 'Playfair Display', serif; font-style: italic; font-size: 22px; letter-spacing: 0; }
 .brand-dot { color: var(--orange); }
-.header-order { border-radius: 4px; font-weight: 700; margin-left: auto; }
+.header-socials { display: flex; align-items: center; gap: 12px; margin-left: auto; }
+.social-link { display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background: var(--paper); border: 1px solid rgba(73, 98, 75, .22); transition: transform .2s ease, background .2s ease, box-shadow .2s ease; }
+.social-link .social-icon { width: 26px; height: 26px; object-fit: contain; filter: grayscale(1); }
+.social-link:hover { background: var(--sage); transform: translateY(-2px); box-shadow: 0 8px 16px rgba(30,33,29,.14); }
+.social-link:hover .social-icon { filter: grayscale(0) invert(1); }
 .mobile-menu { display: inline-flex; margin-left: 0; font-size: 30px; width: 44px; height: 44px; align-items: center; justify-content: center; }
 .mobile-menu .material-icons { font-size: 34px; }
 .mobile-drawer { background: var(--paper); position: fixed; inset: 0 auto auto 0; width: min(320px, 88vw); height: 100vh; z-index: 20; padding: 24px 16px; box-shadow: 0 28px 60px rgba(0,0,0,.3); }

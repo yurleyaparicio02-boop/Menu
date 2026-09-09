@@ -11,13 +11,13 @@ export const menuData = {
       products: [
         { name: 'Bistro Smash', description: 'Carne 160g, queso cheddar, cebolla roja y salsa smoky.', price: 18500, tag: 'Más pedido', image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80' },
         { name: 'La Cabaña', description: 'Carne doble, tocineta, queso gouda y cebollas caramelizadas.', price: 21500, tag: 'Nuevo', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80' },
-        { name: 'Oven Melt', description: 'Doble queso, salsa BBQ, rúgula y pan de ajonjolí.', price: 20500, tag: 'Picante', image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=900&q=80' },
+        { name: 'Oven Melt', description: 'Doble queso, salsa BBQ, rúgula y pan de ajonjolí.', price: 20500, tag: 'Picante', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6IACvqY1clWOTwa4srAeuSH17LzKKf7apT8pW5nEfLw&s=10' },
         { name: 'Green Stack', description: 'Carne con queso crisps, aguacate, tomate y aderezo verde.', price: 19500, tag: 'Vegetariano', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMIoD35xlWyICvJVKfIw2Vqzy1It3QsV2q9_uMhC_TSb1pIo20O6_kwz1&s=10' },
         {name: 'BBQ Crunch', description: 'Carne a la parrilla, queso cheddar, tocineta crujiente y salsa BBQ.',price: 22500, tag: 'Popular', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd'},
 {name: 'Chicken Deluxe', description: 'Pechuga de pollo crujiente, queso, lechuga, tomate y salsa especial.', price: 21000, tag: 'Pollo', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKa-AJZSTrY51v00h5db_JrEmnBhlkYJKIePsxfrblpA&s=10'}
       ],
       chef: {
-        image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=900&q=80',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV30E2UoTd_1CfoECDCRV4K6M6NT9rvR4cj8tdemvBpQ&s=10',
         label: 'Recomendación del chef',
         title: 'La Smash de la casa',
         copy: 'Nuestra hamburguesa roja de la semana: doble carne, queso fundido y salsa de la casa.',
@@ -132,9 +132,11 @@ export const menuData = {
         { name: 'Combo Familiar', description: '2 hamburguesas, papas y 2 gaseosas de 500ml.', price: 38500, tag: 'Más pedido', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb3ac3bmDWvhrJlwfqXwlrbZM9l7ezIEufzX3_VoCA4Q&s=10' },
         { name: 'Pizza + Bebida', description: 'Pizza Margarita pequeña y limonada de la casa.', price: 22500, tag: 'Nuevo', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcfkojq7RAHKI6zWP3P5hBu7sGmvs-37DD1qxWo9UI7g&s=10' },
         { name: 'Domingos para dos', description: '2 perros, papas clásicas y postre para compartir.', price: 29500, tag: 'Combo', image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80' },
-        { name: 'Hora del sabor', description: 'Combo especial de 4 productos con salsa y bebida.', price: 27000, tag: 'Picante', image: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80' }
-      ],
-      chef: {
+        { name: 'Hora del sabor', description: 'Combo especial de 4 productos con salsa y bebida.', price: 27000, tag: 'Picante', image: 'https://back.vinapp.co//store/1000x500188714-2021-10-07-16-44-05.jpg' },
+    { name: 'Fiesta Familiar', description: ' 2 Pizzas ,Postre de preferencia  2 bebidas.', price: 45000, tag: 'Popular', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ycOfE0PcJUqVBCa2dOSHhU664qMd1Ttwg2wFHE-DOWyZley-axvNTnS1&s=10' },
+{ name: 'Dúo Crujiente', description: '1 Hamburguesa + Perro con geseosa.', price: 22000, tag: 'Nuevo', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtZAN5WZJXVDZrXXHrsaOUV4I9igeUZoIFOwtMKOpXUQ6AkEmBprJJAdtR&s=10' }  ],
+     
+chef: {
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ENqqkTHTv-lsXksor8ZJQaZtzzRUHMZzEntsmDkm5Q&s=10',
         label: 'Recomendación del chef',
         title: 'Combo Callejero',
@@ -152,8 +154,8 @@ export const menuData = {
     heroImage: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80',
     team: [
       { name: 'Sofía Ortiz', role: 'Chef', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRxLGp0WOTNJWvq3_DwPDLEzums7lVoESwcprbqf_p7LMEVVzE5b1q66M&s=10' },
-      { name: 'Mateo Rojas', role: 'Cajero', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSihx1HM2lbh1RZJAAZff5nbnP36IP2PWKVnUqh4KH-ckpxkFu_HSOwkIQ&s=10' },
-      { name: 'Camilo Pérez', role: 'Domiciliario', image: 'https://elgrancatering.com/wp-content/uploads/elementor/thumbs/chef-qsp56rmf4us7gld77kmxdk7ouzb0hh3kd0sp5pjwhc.jpg' }
+      { name: 'Mateo Rojas', role: 'Cajero', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NEuKXsVq0GaOcu7imQ2mvQJf1jno4uveG2srXj22mA&s=10' },
+      { name: 'Camilo Pérez', role: 'Domiciliario', image: 'https://enriko.com.co/storage/2020/02/delivery-man-giving-take-away-food-DBXUQTG-copy.jpg' }
     ]
   }
 }

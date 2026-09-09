@@ -9,18 +9,16 @@
 
           <router-link :to="brandRoute" class="brand">
             <span class="brand-mark">G</span>
-            <span>Gastro<span class="brand-dot">bar</span></span>
+            <span>Gastrobar <span class="brand-dot">El Fogón</span></span>
           </router-link>
         </div>
-
-        <button class="q-btn q-btn--standard header-order">Pedir Ahora</button>
       </div>
-    </header>
 
+    </header>
     <aside class="mobile-drawer" v-if="drawer">
       <div class="drawer-brand">
         <span class="brand-mark small">G</span>
-        <span>Gastro<span class="brand-dot">bar</span></span>
+        <span>Gastrobar <span class="brand-dot">El Fogón</span></span>
       </div>
       <div class="drawer-links">
         <router-link v-for="item in navItems" :key="item.path" class="drawer-link" :to="item.path" @click="drawer = false">
@@ -33,7 +31,7 @@
       <aside class="left-sidebar" v-if="sidebarOpen">
         <div class="sidebar-brand">
           <span class="brand-mark small">G</span>
-          <span>Gastro<span class="brand-dot">bar</span></span>
+          <span>Gastrobar <span class="brand-dot">El Fogón</span></span>
         </div>
 
         <nav class="sidebar-nav">
